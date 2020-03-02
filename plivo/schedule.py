@@ -8,5 +8,5 @@ try:
     time = sys.argv[2]
 except IndexError:
     time = "now"
-command = 'echo "export DISPLAY=:0 && python p4.py \'{}\'" | at {}'.format(message, time)
+command = 'echo "export DISPLAY=:0 && python main.py \'{}\'" | at {}'.format(message, time)
 subprocess.call(command, shell=True)
