@@ -15,7 +15,7 @@ except ValueError:
 
 command = "python main.py \'{}\'".format(message)
 
-counter = int(raw_input("Enter the number of times you want to send the message: ").strip())
+counter = int(str(input("Enter the number of times you want to send the message: ")).strip())
 
 def job():
     for message in range(counter):
