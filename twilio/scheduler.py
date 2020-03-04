@@ -7,7 +7,8 @@ this is system call function of python language and it's different for different
 import sys
 
 """
-
+sys module is a set of functions which provide crucial information about how your Python 
+script is interacting with the host system.
 """
 
 message = sys.argv[1]
